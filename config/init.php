@@ -2,13 +2,13 @@
 
 define("DEBUG", 1);
 define("ROOT", dirname(__DIR__));
-define("WWW", ROOT . "public");
-define("APP", ROOT . "app");
-define("CORE", ROOT . "vendor/core");
-define("LIBS", ROOT . 'vendor/core/libs');
-define("CACHE", ROOT . 'tpm/cache');
-define("CONFIG", ROOT . 'config');
-define("LAYOUT", ROOT . 'default');
+define("WWW", ROOT . "/public");
+define("APP", ROOT . "/app");
+define("CORE", ROOT . "/vendor/ishop/core");
+define("LIBS", ROOT . '/vendor/ishop/core/libs');
+define("CACHE", ROOT . '/tpm/cache');
+define("CONFIG", ROOT . '/config');
+define("LAYOUT", ROOT . '/default');
 
 
 $app_path = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
