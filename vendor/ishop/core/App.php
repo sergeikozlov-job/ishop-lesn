@@ -15,6 +15,8 @@ class App
         session_start();
         self::$app = new Registry();
         $this->setParams();
+        new ErrorsHandler();
+        Route::dispatch($query);
     }
     
     private function setParams() {
