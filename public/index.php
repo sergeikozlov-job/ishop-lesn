@@ -9,4 +9,5 @@ require_once CONFIG . '/routes.php';
 
 new App();
 
+
 //debug(Route::getRoutes());

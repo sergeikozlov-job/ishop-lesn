@@ -150,3 +150,81 @@
 =======================
 Дата:2020-12-12 20-21-28| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
+Дата:2021-01-24 14-26-22| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-01-24 14-26-45| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-01-24 14-26-54| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-01-24 14-30-27| Текс ошибки: Класс app\controllers\TetController не найден | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 48 
+=======================
+Дата:2021-01-24 14-30-27| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-01-24 14-30-42| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-01-24 14-36-37| Текс ошибки: Класс app\controllers\admin\MainController не найден | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 48 
+=======================
+Дата:2021-01-24 14-36-37| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-01-24 14-37-15| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-02-15 20-23-50| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-02-15 21-25-38| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-02-15 21-39-32| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-02-15 21-39-33| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-02-15 21-39-34| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
+=======================
+Дата:2021-02-16 21-27-30| Текс ошибки: Too few arguments to function ishop\base\View::render(), 0 passed in F:\OpenServer\domains\ishop\vendor\ishop\core\base\Controller.php on line 34 and exactly 1 expected | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\base\View.php | Строка: 34 
+=======================
+Дата:2021-02-16 21-28-18| Текс ошибки: Too few arguments to function ishop\base\View::render(), 0 passed in F:\OpenServer\domains\ishop\vendor\ishop\core\base\Controller.php on line 34 and exactly 1 expected | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\base\View.php | Строка: 34 
+=======================
+Дата:2021-02-16 21-30-37| Текс ошибки: Не найден вид F:\OpenServer\domains\ishop/app/view/Main/index.php | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\base\View.php | Строка: 39 
+=======================
+Дата:2021-02-16 21-30-59| Текс ошибки: Не найден вид F:\OpenServer\domains\ishop/app/view/Main/index.php | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\base\View.php | Строка: 39 
+=======================
+Дата:2021-02-16 21-31-00| Текс ошибки: Не найден вид F:\OpenServer\domains\ishop/app/view/Main/index.php | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\base\View.php | Строка: 39 
+=======================
+Дата:2021-02-16 21-31-01| Текс ошибки: Не найден вид F:\OpenServer\domains\ishop/app/view/Main/index.php | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\base\View.php | Строка: 39 
+=======================
+Дата:2021-02-16 21-44-05| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-16 21-44-30| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-16 21-44-32| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-16 21-45-39| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-16 21-45-40| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-16 21-46-48| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-16 21-46-49| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 22-46-25| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 22-53-53| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 22-53-55| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 22-54-20| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 22-54-31| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 22-56-09| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 22-56-39| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 23-04-06| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 23-04-35| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 23-04-36| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 23-05-01| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================
+Дата:2021-02-17 23-05-28| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+=======================

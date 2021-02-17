@@ -32,21 +32,22 @@ class Route
         
         if (self::matchRoute($url)) {
             
-          $controller = "app\controllers\\" . self::$route["prefix"] . self::$route["controller"] . "Controller";
-          
-          if(class_exists($controller)) {
-              $controllerObjext = new $controller;
-              $action = self::lowerApperCase(self::$route['action']) . 'Action';
-          
-              if(method_exists($controllerObjext, $action)) {
-                  $controllerObjext->$action();
-              } else {
-                  throw new \Exception("Метод $controller:$action не найден", 404);
-              }
-          
-          } else {
-              throw new \Exception("Класс $controller не найден", 404);
-          }
+            $controller = "app\controllers\\" . self::$route["prefix"] . self::$route["controller"] . "Controller";
+            
+            if (class_exists($controller)) {
+                $controllerObjext = new $controller(self::$route);
+                $action           = self::lowerApperCase(self::$route['action']) . 'Action';
+                
+                if (method_exists($controllerObjext, $action)) {
+                    $controllerObjext->$action();
+                    $controllerObjext->getView();
+                } else {
+                    throw new \Exception("Метод $controller:$action не найден", 404);
+                }
+                
+            } else {
+                throw new \Exception("Класс $controller не найден", 404);
+            }
             
         } else {
             throw new \Exception("Страница не найдена", 404);
@@ -79,7 +80,7 @@ class Route
                 
                 $route["controller"] = self::upperCamelCase($route["controller"]);
                 self::$route         = $route;
-
+                
                 return true;
             }
             
@@ -97,7 +98,8 @@ class Route
     }
     
     
-    protected static function lowerApperCase($name) {
+    protected static function lowerApperCase($name)
+    {
         return lcfirst(self::upperCamelCase($name));
     }
     
