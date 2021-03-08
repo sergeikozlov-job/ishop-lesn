@@ -4,15 +4,17 @@
 namespace ishop\base;
 
 
-class Model
+use ishop\Db;
+
+abstract class Model
 {
     
     public $attributes = [];
     public $rules = [];
     public $errors = [];
     
-    protected function __construct()
+    public function __construct()
     {
-    
+        Db::instance();
     }
 }
