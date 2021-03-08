@@ -1,74 +1,60 @@
-Дата:2021-03-08 18-08-42| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-44-31| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 18-16-27| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-49-46| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-00-43| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-51-01| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-07-19| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-51-02| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-07-44| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Db.php | Строка: 15 
+Дата:2021-03-08 21-52-34| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-07-44| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-52-35| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-08-28| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Db.php | Строка: 17 
+Дата:2021-03-08 21-52-36| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-08-28| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-52-36| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-09-55| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Db.php | Строка: 17 
+Дата:2021-03-08 21-52-37| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-09-55| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-52-37| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-09-55| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Db.php | Строка: 17 
+Дата:2021-03-08 21-54-39| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-09-55| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-54-40| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-09-55| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Db.php | Строка: 17 
+Дата:2021-03-08 21-55-54| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-09-55| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-55-55| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-09-56| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Db.php | Строка: 17 
+Дата:2021-03-08 21-55-55| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-09-56| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-55-56| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-10-08| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-57-14| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-10-09| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-57-49| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-10-21| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Db.php | Строка: 17 
+Дата:2021-03-08 21-59-04| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-10-21| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 21-59-29| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-10-26| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Db.php | Строка: 17 
+Дата:2021-03-08 21-59-58| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-10-26| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 22-00-04| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-10-38| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 22-00-13| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-10-42| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 22-00-14| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-11-02| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 22-00-14| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-11-03| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 22-00-26| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-14-43| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\app\controllers\MainController.php | Строка: 14 
+Дата:2021-03-08 22-00-34| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-14-43| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 22-01-33| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-14-56| Текс ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'test' at line 1 | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+Дата:2021-03-08 22-01-34| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================
-Дата:2021-03-08 20-14-56| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
-=======================
-Дата:2021-03-08 20-15-33| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
-=======================
-Дата:2021-03-08 20-18-27| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
-=======================
-Дата:2021-03-08 20-19-13| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
-=======================
-Дата:2021-03-08 20-19-18| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
-=======================
-Дата:2021-03-08 20-23-47| Текс ошибки: Class 'R' not found | Файл: D:\Programs\OSPanel\domains\ishop\app\views\layouts\default.php | Строка: 17 
-=======================
-Дата:2021-03-08 20-23-47| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
-=======================
-Дата:2021-03-08 20-24-02| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 53 
+Дата:2021-03-08 22-01-52| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Route.php | Строка: 52 
 =======================

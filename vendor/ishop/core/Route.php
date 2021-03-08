@@ -29,9 +29,8 @@ class Route
     
     public static function dispatch($url)
     {
-        
+        $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
-            
             $controller = "app\controllers\\" . self::$route["prefix"] . self::$route["controller"] . "Controller";
             
             if (class_exists($controller)) {
@@ -57,7 +56,6 @@ class Route
     // Проверяем что есть route
     public static function matchRoute($url)
     {
-        $url = self::removeQueryString($url);
         foreach (self::$routes as $pattern => $route) {
             
             if (preg_match("~{$pattern}~", $url, $matches)) {
