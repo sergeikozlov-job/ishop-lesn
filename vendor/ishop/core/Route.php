@@ -57,10 +57,10 @@ class Route
     // Проверяем что есть route
     public static function matchRoute($url)
     {
-        
-        foreach (self::$routes as $pater => $route) {
+        $url = self::removeQueryString($url);
+        foreach (self::$routes as $pattern => $route) {
             
-            if (preg_match("~{$pater}~", $url, $matches)) {
+            if (preg_match("~{$pattern}~", $url, $matches)) {
                 
                 foreach ($matches as $k => $v) {
                     if (is_string($k)) {
@@ -83,8 +83,8 @@ class Route
                 
                 return true;
             }
-            
         }
+        return false;
     }
     
     
@@ -101,6 +101,16 @@ class Route
     protected static function lowerApperCase($name)
     {
         return lcfirst(self::upperCamelCase($name));
+    }
+    
+    protected static function removeQueryString($url)
+    {
+        $params = explode('&', $url, 2);
+        if (strpos($params[0], '=') === false) {
+            return rtrim($params[0], '/');
+        } else {
+            return '';
+        }
     }
     
 }
