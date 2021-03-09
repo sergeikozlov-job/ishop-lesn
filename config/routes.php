@@ -1,13 +1,11 @@
 <?php
 
-use ishop\Route;
+use ishop\Router;
 
 
+// default routes
+Router::add('^admin$', ['controller' => 'Main', 'action' => 'index', 'prefix' => 'admin']);
+Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix' => 'admin']);
 
-
-//default routes
-Route::add("^admin$", ["controller" => "main", "action" => "index", "prefix"=>"admin"]);
-Route::add("^admin/(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$",  ["prefix"=>"admin"]);
-
-Route::add("^$", ["controller" => "main", "action" => "index"]);
-Route::add("^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$");
+Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
+Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');

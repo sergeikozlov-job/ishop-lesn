@@ -16,7 +16,7 @@ class App
         self::$app = new Registry();
         $this->setParams();
         new ErrorsHandler();
-        Route::dispatch($query);
+        Router::dispatch($query);
     }
     
     private function setParams()
