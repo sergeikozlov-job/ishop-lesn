@@ -19,9 +19,10 @@ class App
         Route::dispatch($query);
     }
     
-    private function setParams() {
+    private function setParams()
+    {
         $params = require_once CONFIG . "/params.php";
-        if(!empty($params)) {
+        if ( ! empty($params)) {
             foreach ($params as $k => $v) {
                 self::$app->setProperty($k, $v);
             }

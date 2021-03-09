@@ -10,18 +10,19 @@ class Db
 {
     use TSingletone;
     
-    protected function __construct() {
+    protected function __construct()
+    {
         $db = require_once CONFIG . '/config_db.php';
         R::setup($db['dsn'], $db['user'], $db['pass']);
         
-        if(!R::testConnection()) {
-           throw new \Exception('Нет соединения с БД', 500);
+        if ( ! R::testConnection()) {
+            throw new \Exception('Нет соединения с БД', 500);
         }
         
         R::freeze();
         
-        if(DEBUG) {
-            R::debug( TRUE, 1 );
+        if (DEBUG) {
+            R::debug(true, 1);
         }
     }
     
