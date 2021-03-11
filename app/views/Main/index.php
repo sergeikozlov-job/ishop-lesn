@@ -57,7 +57,7 @@
                                     <p>Explore Now</p>
                                     <h4><a class="add-to-cart-link" href="cart/add?id=<?= $hit->id; ?>"><i></i></a>
                                         <span class="item_price">$ <?= $hit->price; ?></span>
-                                        <?php if ($hit->price): ?>
+                                        <?php if ($hit->old_price): ?>
                                             <small>
                                                 <del><?= $hit->old_price; ?></del>
                                             </small>
