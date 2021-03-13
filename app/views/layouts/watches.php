@@ -1,20 +1,12 @@
-<?php
-
-?>
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
     <?= $this->getMeta(); ?>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--theme-style-->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -70,7 +62,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="container">
         <div class="header">
             <div class="col-md-9 header-left">
-                <div class="top-nav">
+                <div class="menu-container">
+                    <div class="menu">
+                        <?php new \app\widgets\menu\Menu([
+                            'attrs' => [
+                                'data-js' => 'menu',
+                            ],
+                        ]) ?>
+                    </div>
+                </div>
+                
+                <!--<div class="top-nav">
                     <ul class="memenu skyblue">
                         <li class="active"><a href="index.html">Home</a></li>
                         <li class="grid"><a href="#">Men</a>
@@ -207,7 +209,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li class="grid"><a href="contact.html">Contact</a>
                         </li>
                     </ul>
-                </div>
+                </div>-->
                 <div class="clearfix"></div>
             </div>
             <div class="col-md-3 header-right">
@@ -294,9 +296,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/simpleCart.min.js"></script>
-<script type="text/javascript" src="js/memenu.js"></script>
 <script src="js/jquery.easydropdown.js"></script>
 <script src="js/responsiveslides.min.js"></script>
+<script src="megamenu/js/megamenu.js"></script>
 <script src="js/app.js"></script>
 
 </body>

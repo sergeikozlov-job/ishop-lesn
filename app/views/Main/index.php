@@ -18,7 +18,9 @@
 <!--banner-ends-->
 
 <!--about-starts-->
-<?php if ($brands): ?>
+<?php use ishop\App;
+
+if ($brands): ?>
     <div class="about">
         <div class="container">
             <div class="about-top grid-1">
@@ -42,6 +44,7 @@
 
 <!--product-starts-->
 <?php if ($hits): ?>
+    <?php $currency = App::$app->getProperty('currency'); ?>
     <div class="product">
         <div class="container">
             <div class="product-top">
@@ -56,10 +59,13 @@
                                     <h3><a href="product/<?= $hit->alias; ?>"><?= $hit->title; ?></a></h3>
                                     <p>Explore Now</p>
                                     <h4><a class="add-to-cart-link" href="cart/add?id=<?= $hit->id; ?>"><i></i></a>
-                                        <span class="item_price">$ <?= $hit->price; ?></span>
+                                        <span class="item_price">
+                                            <?= $currency["symbol_left"] ?><?= $hit->price * $currency["value"]; ?><?= $currency["symbol_right"] ?>
+                                        </span>
                                         <?php if ($hit->old_price): ?>
                                             <small>
-                                                <del><?= $hit->old_price; ?></del>
+                                                <del>
+                                                    <?= $currency["symbol_left"] ?><?= $hit->old_price * $currency["value"]; ?><?= $currency["symbol_right"] ?></del>
                                             </small>
                                         <?php endif; ?>
                                     </h4>

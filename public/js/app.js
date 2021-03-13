@@ -14,10 +14,6 @@ $(function () {
         },
     });
     
-    // Memenu
-    $('.memenu').memenu();
-    
-    
     // Переключение валют
     $('[data-js=\'currency\']').change(function () {
         window.location = 'currency/change?curr=' + $(this).val();
