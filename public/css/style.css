@@ -1530,13 +1530,10 @@ a.mask {
 /*-- end scrollpane --*/
 /*--product-page-end--*/
 /*--breadcrumbs-starts--*/
-.breadcrumbs-main {
-  border: 1px solid #D6D6D6;
-}
-
 .breadcrumb {
   background: none;
   margin: 0;
+  border: 1px solid #D6D6D6;
 }
 
 .breadcrumb > li {
@@ -1978,7 +1975,7 @@ a.add-cart {
   padding: 0.4em 0.8em;
   font-size: 1.15em;
   text-transform: uppercase;
-  margin-top: 2em;
+  margin-top: 1em;
   display: inline-block;
 }
 
@@ -3756,3 +3753,8 @@ h3.ghj {
 }
 
 /*--media-quaries-end-here--*/
+
+.quantity {
+  max-width: 200px;
+  margin-top: 15px;
+}

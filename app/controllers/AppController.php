@@ -17,8 +17,9 @@ class AppController extends Controller
         parent::__construct($route);
         new AppModel();
         
-        App::$app->setProperty('currencies', Currency::getCurrencies());
-        App::$app->setProperty('currency', Currency::getCurrency(Currency::getCurrencies()));
+        $currencies = Currency::getCurrencies();
+        App::$app->setProperty('currencies', $currencies);
+        App::$app->setProperty('currency', Currency::getCurrency($currencies));
     
         App::$app->setProperty('category', self::cacheCategory());
     }

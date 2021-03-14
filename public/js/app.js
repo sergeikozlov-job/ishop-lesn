@@ -1,4 +1,5 @@
 $(function () {
+    
     // Slideshow 4
     $('#slider4').responsiveSlides({
         auto: true,
@@ -15,8 +16,30 @@ $(function () {
     });
     
     // Переключение валют
-    $('[data-js=\'currency\']').change(function () {
-        window.location = 'currency/change?curr=' + $(this).val();
+    $('[data-js="currency"]').change(function () {
+        window.location = '/currency/change?curr=' + $(this).val();
+    });
+    
+    $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails"
+    });
+    
+    // Аккордион
+    var menu_ul = $('.menu_drop > li > ul'),
+        menu_a  = $('.menu_drop > li > a');
+    
+    menu_ul.hide();
+    menu_a.click(function(e) {
+        e.preventDefault();
+        if(!$(this).hasClass('active')) {
+            menu_a.removeClass('active');
+            menu_ul.filter(':visible').slideUp('normal');
+            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+        } else {
+            $(this).removeClass('active');
+            $(this).next().stop(true,true).slideUp('normal');
+        }
     });
     
 });
