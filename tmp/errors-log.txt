@@ -1480,3 +1480,123 @@
 =======================
 Дата:2021-03-20 15-31-03| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
 =======================
+Дата:2021-03-20 16-30-03| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-30-04| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-30-33| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-30-45| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-31-04| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-31-29| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-36-37| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-42-04| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-42-18| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-24| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-36| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-38| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-40| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-41| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-42| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-42| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-43| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-44| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-44| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-45| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-45| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-46| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-46| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-47| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-47| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-43-48| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-44-13| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-44-14| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-44-39| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-44-46| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-44-51| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-44-58| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-00| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-00| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-01| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-13| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-14| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-16| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-47| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-47| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-49| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-49| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-50| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-45-50| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-47-21| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-47-21| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-47-56| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-47-56| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-48-00| Текс ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 41 
+=======================
+Дата:2021-03-20 16-48-00| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-48-01| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-48-01| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-48-02| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-48-02| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-48-03| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-48-03| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-48-17| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-49-13| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-49-21| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-20 16-49-37| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================

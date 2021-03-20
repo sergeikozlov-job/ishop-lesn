@@ -3,8 +3,7 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Single</li>
+                <?= $breadcrumbs ?>
             </ol>
         </div>
     </div>
@@ -90,14 +89,14 @@
                             </div>
                             <ul class="tag-men">
                                 <li><span>Category:</span>
-                                    <a href="<?= $category[$product["category_id"]]['alias'] ?>"
+                                    <a href="/category/<?= $category[$product["category_id"]]['alias'] ?>"
                                        class="women1"> <?= $category[$product["category_id"]]['title'] ?></a>
                                 </li>
                             </ul>
                             <div class="quantity">
                                 <input type="number" step="1" value="1" size="4" min="1" name="quantity" class="form-control"></input>
                             </div>
-                            <a href="cart/add?id=<?= $product->id; ?>" class="add-to-cart-link add-cart item_add">ADD TO CART</a>
+                            <a href="/cart/add?id=<?= $product->id; ?>" class="add-to-cart-link add-cart item_add">ADD TO CART</a>
                         
                         </div>
                     </div>
