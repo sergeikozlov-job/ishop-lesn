@@ -58,7 +58,7 @@
                                 <div class="clearfix"></div>
                             </div>
                             
-                            <h5 class="item_price">
+                            <h5 class="item_price" data-js="base-price" data-base-price="<?= $product->price * $currency["value"]; ?>">
                                 <?= $currency["symbol_left"] ?><?= $product->price * $currency["value"]; ?><?= $currency["symbol_right"] ?>
                                 <?php if ($product->old_price): ?>
                                     <small>
@@ -71,19 +71,14 @@
                             <div class="available">
                                 <ul>
                                     <li>Color
-                                        <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
-                                        </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
-                                        </select></li>
+                                        <select data-js="product-mod">
+                                            <option>Выбрать цвет</option>
+                                            <?php foreach ($mods as $mod): ?>
+                                                <option data-mod-color="<?= $mod->title ?>" data-mod-price="<?= $mod->price * $currency["value"] ?>"
+                                                        value="<?= $mod->id ?>"><?= $mod->title ?></option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </li>
                                     <div class="clearfix"></div>
                                 </ul>
                             </div>

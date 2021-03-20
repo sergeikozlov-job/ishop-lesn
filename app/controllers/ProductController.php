@@ -38,13 +38,13 @@ class ProductController extends AppController
         }
         
         // модификации
-        
+        $mods =  \RedBeanPHP\R::findAll('modification', "product_id=?", [$product->id]);
         
         // галлерея
         $gallery = \RedBeanPHP\R::findAll('gallery', "product_id = ?", [$product->id]);
         
         
-        $this->set(compact('product', 'related', 'gallery', 'recently_view', 'breadcrumbs'));
+        $this->set(compact('product', 'related', 'gallery', 'recently_view', 'breadcrumbs', 'mods'));
         $this->setMeta($product->title, $product->description, $product->keywords);
     }
     

@@ -156,6 +156,14 @@
     </div>
 </div>
 <!--footer-end-->
+<?php $currency =ishop\App::$app->getProperty('currency'); ?>
+
+<script>
+    let path = '<?= PATH ?>',
+        curse = <?= $currency["value"] ?>,
+        symbol_left = '<?= $currency["symbol_left"] ?>'
+        symbol_right = '<?= $currency["symbol_right"] ?>';
+</script>
 
 <script src="/js/jquery-1.11.0.min.js"></script>
 <script src="/js/simpleCart.min.js"></script>
