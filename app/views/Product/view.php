@@ -17,16 +17,17 @@
             <div class="col-md-9 single-main-left">
                 <div class="sngl-top">
                     <div class="<?= $gallery ? 'col-md-5' : 'col-md-3' ?> single-top-left">
-                        <?php if($gallery): ?>
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <?php foreach ($gallery as $imgage): ?>
-                                <li data-thumb="/images/<?= $imgage->img ?>">
-                                    <div class="thumb-image"><img src="/images/<?= $imgage->img ?>" data-imagezoom="true" class="img-responsive" alt="" /></div>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
+                        <?php if ($gallery): ?>
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <?php foreach ($gallery as $imgage): ?>
+                                        <li data-thumb="/images/<?= $imgage->img ?>">
+                                            <div class="thumb-image"><img src="/images/<?= $imgage->img ?>" data-imagezoom="true"
+                                                                          class="img-responsive" alt="" /></div>
+                                        </li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            </div>
                         <?php else: ?>
                             <img src="/images/<?= $product->img ?>" alt="">
                         <?php endif; ?>
@@ -173,41 +174,81 @@
                         </li>
                     </ul>
                 </div>
-                <div class="latestproducts">
-                    <div class="product-one">
-                        <h3>С этим товаром также покупают:</h3>
-                        <?php foreach ($related as $item): ?>
-                            <div class="col-md-4 product-left p-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="/product/<?= $item["alias"] ?>" class="mask">
-                                        <img class="img-responsive zoom-img" src="/images/<?= $item["img"] ?>" alt="" />
-                                    </a>
-                                    <div class="product-bottom">
-                                        <h3><?= $item["title"] ?></h3>
-                                        <p>Explore Now</p>
-                                        <h4>
-                                            <a class="item_add add-to-cart-link" href="/add/cart?id=<?= $item["id"] ?>"><i></i></a>
-                                            <span class=" item_price">
+                <?php if ( ! empty($related)): ?>
+                    <div class="latestproducts">
+                        <div class="product-one">
+                            <h3>С этим товаром также покупают:</h3>
+                            <?php foreach ($related as $item): ?>
+                                <div class="col-md-4 product-left p-left">
+                                    <div class="product-main simpleCart_shelfItem">
+                                        <a href="/product/<?= $item["alias"] ?>" class="mask">
+                                            <img class="img-responsive zoom-img" src="/images/<?= $item["img"] ?>" alt="" />
+                                        </a>
+                                        <div class="product-bottom">
+                                            <h3><?= $item["title"] ?></h3>
+                                            <p>Explore Now</p>
+                                            <h4>
+                                                <a class="item_add add-to-cart-link" href="/add/cart?id=<?= $item["id"] ?>"><i></i></a>
+                                                <span class=" item_price">
                                                 <?= $currency["symbol_left"] ?><?= $item["price"] * $currency["value"]; ?><?= $currency["symbol_right"] ?>
-                                                <?php if ($item["old_price"]): ?>
-                                                    <small>
+                                                    <?php if ($item["old_price"]): ?>
+                                                        <small>
                                                         <del>
                                                             <?= $currency["symbol_left"] ?><?= $item["old_price"] * $currency["value"]; ?><?= $currency["symbol_right"] ?>
                                                         </del>
                                                     </small>
-                                                <?php endif; ?>
+                                                    <?php endif; ?>
                                             </span>
-                                        </h4>
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
+                                            </h4>
+                                        </div>
+                                        <div class="srch">
+                                            <span>-50%</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        <?php endforeach; ?>
-                        <div class="clearfix"></div>
+                            <?php endforeach; ?>
+                            <div class="clearfix"></div>
+                        </div>
                     </div>
-                </div>
+                <?php endif; ?>
+                
+                <?php if ( ! empty($recently_view)): ?>
+                    <div class="latestproducts">
+                        <div class="product-one">
+                            <h3>Просмотренные товары:</h3>
+                            <?php foreach ($recently_view as $item): ?>
+                                <div class="col-md-4 product-left p-left">
+                                    <div class="product-main simpleCart_shelfItem">
+                                        <a href="/product/<?= $item["alias"] ?>" class="mask">
+                                            <img class="img-responsive zoom-img" src="/images/<?= $item["img"] ?>" alt="" />
+                                        </a>
+                                        <div class="product-bottom">
+                                            <h3><?= $item["title"] ?></h3>
+                                            <p>Explore Now</p>
+                                            <h4>
+                                                <a class="item_add add-to-cart-link" href="/add/cart?id=<?= $item["id"] ?>"><i></i></a>
+                                                <span class=" item_price">
+                                                <?= $currency["symbol_left"] ?><?= $item["price"] * $currency["value"]; ?><?= $currency["symbol_right"] ?>
+                                                    <?php if ($item["old_price"]): ?>
+                                                        <small>
+                                                        <del>
+                                                            <?= $currency["symbol_left"] ?><?= $item["old_price"] * $currency["value"]; ?><?= $currency["symbol_right"] ?>
+                                                        </del>
+                                                    </small>
+                                                    <?php endif; ?>
+                                            </span>
+                                            </h4>
+                                        </div>
+                                        <div class="srch">
+                                            <span>-50%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                <?php endif; ?>
             </div>
             <div class="col-md-3 single-right">
                 <div class="w_sidebar">

@@ -20,6 +20,7 @@ $(function () {
         window.location = '/currency/change?curr=' + $(this).val();
     });
     
+    // Слайдер
     $('.flexslider').flexslider({
         animation: "slide",
         controlNav: "thumbnails"
