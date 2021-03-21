@@ -91,7 +91,7 @@
                             <div class="quantity">
                                 <input type="number" step="1" value="1" size="4" min="1" name="quantity" class="form-control"></input>
                             </div>
-                            <a href="/cart/add?id=<?= $product->id; ?>" class="add-to-cart-link add-cart item_add">ADD TO CART</a>
+                            <a href="/cart/add?id=<?= $product->id; ?>" class="add-to-cart-link add-cart item_add" data-id="<?= $product->id; ?>">ADD TO CART</a>
                         
                         </div>
                     </div>

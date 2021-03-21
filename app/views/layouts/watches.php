@@ -166,7 +166,6 @@
 </script>
 
 <script src="/js/jquery-1.11.0.min.js"></script>
-<script src="/js/simpleCart.min.js"></script>
 <script src="/js/jquery.easydropdown.js"></script>
 <script src="/js/responsiveslides.min.js"></script>
 <script src="/js/imagezoom.js"></script>

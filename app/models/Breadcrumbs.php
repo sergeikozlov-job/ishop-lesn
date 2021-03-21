@@ -12,7 +12,7 @@ class Breadcrumbs
     public static function getBreadcrumbs($category_id, $name = '')
     {
         // Получаем все котегории
-        $category          = App::$app->getProperty('category');
+        $category = App::$app->getProperty('category');
         
         // Получаме массив категорий до товара
         $breadcrumbs_array = self::getParts($category, $category_id);
