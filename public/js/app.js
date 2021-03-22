@@ -88,7 +88,14 @@ $(function () {
     });
     
     function showCart(res) {
-        console.log(res);
+        if ($.trim(res) == '<h3>Корзина пуста</h3>') {
+            $('.cart_zakaz, .cart_clear').hide;
+        } else {
+            $('.cart_zakaz, .cart_clear').show();
+        }
+        
+        $('#cart .modal-body').html(res);
+        $('#cart').modal();
     }
     
 });

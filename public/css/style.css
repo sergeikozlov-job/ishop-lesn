@@ -3738,7 +3738,7 @@ h3.ghj {
   }
 
   ul.tag-men {
-    margin: 0px 0 0 0;
+    margin: 0 0 0 0;
   }
 
   .menu_drop > li > a {
@@ -3757,4 +3757,8 @@ h3.ghj {
 .quantity {
   max-width: 200px;
   margin-top: 15px;
+}
+
+#cart img {
+  height: 50px;
 }

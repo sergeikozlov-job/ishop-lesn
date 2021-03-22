@@ -156,8 +156,35 @@
     </div>
 </div>
 <!--footer-end-->
-<?php $currency =ishop\App::$app->getProperty('currency'); ?>
 
+<!-- Modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+            </div>
+            <div class="modal-body">
+            
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                <a href="cart/view" type="button" class="btn btn-primary">Оформить заказ</a>
+                <button type="button" class="btn btn-danger" onclick="clearCart()">Очистить корзину</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<?php $currency =ishop\App::$app->getProperty('currency'); ?>
 <script>
     let path = '<?= PATH ?>',
         curse = <?= $currency["value"] ?>,
@@ -171,6 +198,7 @@
 <script src="/js/imagezoom.js"></script>
 <script defer src="/js/jquery.flexslider.js"></script>
 <script src="/megamenu/js/megamenu.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <script src="/js/app.js"></script>
 
 

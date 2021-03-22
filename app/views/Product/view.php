@@ -68,20 +68,24 @@
                                 <?php endif; ?>
                             </h5>
                             <p><?= $product->content; ?></p>
-                            <div class="available">
-                                <ul>
-                                    <li>Color
-                                        <select data-js="product-mod">
-                                            <option>Выбрать цвет</option>
-                                            <?php foreach ($mods as $mod): ?>
-                                                <option data-mod-color="<?= $mod->title ?>" data-mod-price="<?= $mod->price * $currency["value"] ?>"
-                                                        value="<?= $mod->id ?>"><?= $mod->title ?></option>
-                                            <?php endforeach; ?>
-                                        </select>
-                                    </li>
-                                    <div class="clearfix"></div>
-                                </ul>
-                            </div>
+                            
+                            <?php if ($mods): ?>
+                                <div class="available">
+                                    <ul>
+                                        <li>Color
+                                            <select data-js="product-mod">
+                                                <option>Выбрать цвет</option>
+                                                <?php foreach ($mods as $mod): ?>
+                                                    <option data-mod-color="<?= $mod->title ?>"
+                                                            data-mod-price="<?= $mod->price * $currency["value"] ?>"
+                                                            value="<?= $mod->id ?>"><?= $mod->title ?></option>
+                                                <?php endforeach; ?>
+                                            </select>
+                                        </li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                </div>
+                            <?php endif; ?>
                             <ul class="tag-men">
                                 <li><span>Category:</span>
                                     <a href="/category/<?= $category[$product["category_id"]]['alias'] ?>"
@@ -91,7 +95,9 @@
                             <div class="quantity">
                                 <input type="number" step="1" value="1" size="4" min="1" name="quantity" class="form-control"></input>
                             </div>
-                            <a href="/cart/add?id=<?= $product->id; ?>" class="add-to-cart-link add-cart item_add" data-id="<?= $product->id; ?>">ADD TO CART</a>
+                            <a href="/cart/add?id=<?= $product->id; ?>" class="add-to-cart-link add-cart item_add" data-id="<?= $product->id; ?>">ADD
+                                                                                                                                                  TO
+                                                                                                                                                  CART</a>
                         
                         </div>
                     </div>

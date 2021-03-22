@@ -26,12 +26,14 @@ class CartModel extends AppModel
             $price = $product->price;
         }
         
+        
         // Запись в сесию
         if (isset($_SESSION['cart'][$ID])) {
             $_SESSION['cart'][$ID]['qty'] += $qty;
         } else {
             $_SESSION['cart'][$ID] = [
                 'title' => $title,
+                'img'   => $product->img,
                 'price' => $price * $_SESSION['cart.currency']['value'],
                 'qty'   => $qty,
                 'alias' => $product->alias,
@@ -42,5 +44,4 @@ class CartModel extends AppModel
         $_SESSION['cart.price'] = isset($_SESSION['cart.price']) ? $_SESSION['cart.price'] + $price * $qty * $_SESSION['cart.currency']['value'] : $price * $qty * $_SESSION['cart.currency']['value'];
         
     }
-    
 }
