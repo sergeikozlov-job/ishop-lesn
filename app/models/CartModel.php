@@ -26,7 +26,6 @@ class CartModel extends AppModel
             $price = $product->price;
         }
         
-        
         // Запись в сесию
         if (isset($_SESSION['cart'][$ID])) {
             $_SESSION['cart'][$ID]['qty'] += $qty;
@@ -42,6 +41,14 @@ class CartModel extends AppModel
         
         $_SESSION['cart.qty']   = isset($_SESSION['cart.qty']) ? $_SESSION['cart.qty'] + $qty : $qty;
         $_SESSION['cart.price'] = isset($_SESSION['cart.price']) ? $_SESSION['cart.price'] + $price * $qty * $_SESSION['cart.currency']['value'] : $price * $qty * $_SESSION['cart.currency']['value'];
-        
     }
+    
+    public function deleteCart($id) {
+    
+        $_SESSION['cart.qty'] -=  $_SESSION['cart'][$id]['qty'];
+        $_SESSION['cart.price'] -=  $_SESSION['cart'][$id]['price'] * $_SESSION['cart'][$id]['qty'];
+        unset($_SESSION['cart'][$id]);
+    }
+    
+    
 }

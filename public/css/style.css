@@ -3762,3 +3762,7 @@ h3.ghj {
 #cart img {
   height: 50px;
 }
+
+.del-cart {
+  cursor: pointer;
+}

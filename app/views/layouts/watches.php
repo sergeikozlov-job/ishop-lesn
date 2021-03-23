@@ -5,7 +5,7 @@
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/flexslider.css" rel="stylesheet"  type="text/css" media="screen" />
+    <link href="/css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
     <!--theme-style-->
     <link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
@@ -37,12 +37,16 @@
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="/checkout.html">
+                    <a href="/cart/show"  data-js="cart">
                         <div class="total">
-                            <span class="simpleCart_total"></span></div>
-                        <img src="/images/cart-1.png" alt="" />
+                            <img src="/images/cart-1.png" alt="" />
+                            <?php if ( ! empty($_SESSION['cart'])): ?>
+                                <span class="simpleCart_total"><?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.price'] . $_SESSION['cart.currency']['symbol_right'] ?></span>
+                            <?php else: ?>
+                                <span class="simpleCart_total">Empty Cart</span>
+                            <?php endif; ?>
+                        </div>
                     </a>
-                    <p><a href="/javascript:;" class="simpleCart_empty">Empty Cart</a></p>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -72,7 +76,7 @@
                         ]) ?>
                     </div>
                 </div>
-
+                
                 <div class="clearfix"></div>
             </div>
             <div class="col-md-3 header-right">
@@ -176,20 +180,20 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
-                <a href="cart/view" type="button" class="btn btn-primary">Оформить заказ</a>
-                <button type="button" class="btn btn-danger" onclick="clearCart()">Очистить корзину</button>
+                <a href="cart/view" type="button" class="btn btn-primary cart_zakaz">Оформить заказ</a>
+                <button type="button" class="btn btn-danger cart_clear" onclick="clearCart()">Очистить корзину</button>
             </div>
         </div>
     </div>
 </div>
 
 
-<?php $currency =ishop\App::$app->getProperty('currency'); ?>
+<?php $currency = ishop\App::$app->getProperty('currency'); ?>
 <script>
-    let path = '<?= PATH ?>',
-        curse = <?= $currency["value"] ?>,
-        symbol_left = '<?= $currency["symbol_left"] ?>'
-        symbol_right = '<?= $currency["symbol_right"] ?>';
+    let path        = '<?= PATH ?>',
+        curse       = <?= $currency["value"] ?>,
+        symbol_left = '<?= $currency["symbol_left"] ?>';
+    symbol_right    = '<?= $currency["symbol_right"] ?>';
 </script>
 
 <script src="/js/jquery-1.11.0.min.js"></script>
@@ -203,12 +207,14 @@
 
 
 <?php
+
 use \RedBeanPHP\R as R;
+
 $logs = R::getDatabaseAdapter()
          ->getDatabase()
          ->getLogger();
 
-debug( $logs->grep( 'SELECT' ) );
+debug($logs->grep('SELECT'));
 ?>
 </body>
 </html>
