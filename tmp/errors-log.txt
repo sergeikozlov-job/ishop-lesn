@@ -2838,3 +2838,139 @@
 =======================
 Дата:2021-03-23 21-37-36| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
 =======================
+Дата:2021-03-24 15-59-31| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.currency' doesn't exist | Файл: F:\OpenServer\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 15-59-31| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-00-29| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.currency' doesn't exist | Файл: F:\OpenServer\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 16-00-29| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-48-54| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-49-02| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-49-03| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-49-08| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-49-15| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-49-24| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-49-32| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-49-36| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-49-50| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-50-14| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-50-24| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-50-24| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-50-25| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-50-29| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-50-33| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-53-20| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-53-25| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-54-34| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-54-54| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-55-15| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-55-17| Текс ошибки: Метод app\controllers\CartController::clearAction не найден | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 38 
+=======================
+Дата:2021-03-24 16-55-40| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-55-42| Текс ошибки: Метод app\controllers\CartController::clearAction не найден | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 38 
+=======================
+Дата:2021-03-24 16-55-55| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-56-03| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-56-06| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-56-12| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-00| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-02| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-07| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-08| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-11| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-13| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-14| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-15| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-35| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-39| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-57-46| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-58-50| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-58-52| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-20| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-21| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-21| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-22| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-23| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-24| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-25| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-32| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 16-59-41| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-00-08| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-00-10| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-34| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-34| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-35| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-36| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-37| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-38| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-44| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-52| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-02-56| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-03-00| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-03-04| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-03-16| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 17-03-19| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================

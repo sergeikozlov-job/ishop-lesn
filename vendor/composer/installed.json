@@ -1,45 +1,55 @@
-[
-    {
-        "name": "gabordemooij/redbean",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/gabordemooij/redbean.git",
-            "reference": "fe7616999347e5f128fdf45f39a7ef590dc244e8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/fe7616999347e5f128fdf45f39a7ef590dc244e8",
-            "reference": "fe7616999347e5f128fdf45f39a7ef590dc244e8",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.4"
-        },
-        "time": "2021-03-01T11:45:07+00:00",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "RedBeanPHP\\": "RedBeanPHP"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Gabor de Mooij",
-                "email": "gabor@redbeanphp.com",
-                "homepage": "https://redbeanphp.com"
-            }
-        ],
-        "description": "RedBeanPHP ORM",
-        "homepage": "https://redbeanphp.com/",
-        "keywords": [
-            "orm"
-        ]
-    }
-]
+{
+    "packages": [
+        {
+            "name": "gabordemooij/redbean",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gabordemooij/redbean.git",
+                "reference": "e420f9fa991eec9e3c78da095b44df59070f648d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/e420f9fa991eec9e3c78da095b44df59070f648d",
+                "reference": "e420f9fa991eec9e3c78da095b44df59070f648d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.4"
+            },
+            "time": "2021-03-11T10:22:34+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "RedBeanPHP\\": "RedBeanPHP"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Gabor de Mooij",
+                    "email": "gabor@redbeanphp.com",
+                    "homepage": "https://redbeanphp.com"
+                }
+            ],
+            "description": "RedBeanPHP ORM",
+            "homepage": "https://redbeanphp.com/",
+            "keywords": [
+                "orm"
+            ],
+            "support": {
+                "issues": "https://github.com/gabordemooij/redbean/issues",
+                "source": "https://github.com/gabordemooij/redbean/tree/master"
+            },
+            "install-path": "../gabordemooij/redbean"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

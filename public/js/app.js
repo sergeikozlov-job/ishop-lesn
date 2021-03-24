@@ -150,6 +150,24 @@ $(function () {
         });
     });
     
+    // Очистка корзины
+    $('#cart').on('click', '.cart_clear', function (e) {
+        $.ajax({
+            url: '/cart/clear',
+            type: 'GET',
+            success: function (res) {
+                if (res !== 'error') {
+                    showCart(res);
+                } else {
+                    alert('Ошибка! Попробуйте позже');
+                }
+            },
+            error: function () {
+                alert('Ошибка! Попробуйте позже');
+            },
+        });
+    });
+    
 });
 
 
