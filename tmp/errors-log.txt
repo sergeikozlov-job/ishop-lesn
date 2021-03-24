@@ -2974,3 +2974,111 @@
 =======================
 Дата:2021-03-24 17-03-19| Текс ошибки: Страница не найдена | Файл: F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
 =======================
+Дата:2021-03-24 18-49-46| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 18-49-55| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 18-50-17| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 18-58-18| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 18-58-33| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 18-58-33| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 18-59-00| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 18-59-11| Текс ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 38 
+=======================
+Дата:2021-03-24 18-59-11| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 18-59-13| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-00-10| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-00-12| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-00-13| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-00-16| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-00-17| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-01-07| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-01-09| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-01-10| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-01-11| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-01-34| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-01-36| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-22| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-02-23| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-02-25| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-25| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-28| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-29| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-29| Текс ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 38 
+=======================
+Дата:2021-03-24 19-02-29| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-02-30| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-02-31| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-32| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-32| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-33| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-34| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-52| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-02-54| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-55| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-02-56| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-04-10| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-04-26| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-04-41| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-04-42| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-04-43| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-04-44| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-04-44| Текс ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop_db.products' doesn't exist | Файл: D:\Programs\OSPanel\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+=======================
+Дата:2021-03-24 19-05-49| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-05-55| Текс ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 38 
+=======================
+Дата:2021-03-24 19-05-55| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-05-56| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-07-16| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-07-29| Текс ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 38 
+=======================
+Дата:2021-03-24 19-07-29| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================
+Дата:2021-03-24 19-07-30| Текс ошибки: Страница не найдена | Файл: D:\Programs\OSPanel\domains\ishop\vendor\ishop\core\Router.php | Строка: 44 
+=======================

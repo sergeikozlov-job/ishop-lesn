@@ -81,8 +81,10 @@
             </div>
             <div class="col-md-3 header-right">
                 <div class="search-bar">
-                    <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-                    <input type="submit" value="">
+                    <form action="/search" method="get" autocomplete="off">
+                        <input type="text" name="s" class="typeahead" id="typeahead">
+                        <input type="submit" value="">
+                    </form>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -203,6 +205,7 @@
 <script defer src="/js/jquery.flexslider.js"></script>
 <script src="/megamenu/js/megamenu.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/typeahead.bundle.js"></script>
 <script src="/js/app.js"></script>
 
 
