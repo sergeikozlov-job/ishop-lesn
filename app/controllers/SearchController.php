@@ -20,4 +20,13 @@ class SearchController extends AppController
         die;
     }
     
+    public function indexAction()
+    {
+        $query    = ! empty(trim($_GET['s'])) ? trim($_GET['s']) : null;
+        $products = \RedBeanPHP\R::find('product', 'title LIKE ?', ["%{$query}%"]);
+        
+        $this->setMeta('Поиск');
+        $this->set(compact('products', 'query'));
+    }
+    
 }
