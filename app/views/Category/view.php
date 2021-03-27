@@ -4,7 +4,7 @@
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
                 <li><a href="<?= PATH; ?>">Главная</a></li>
-                <li>Поиск по запросу "<?= h($query); ?>"</li>
+                <li>Катпгория</li>
             </ol>
         </div>
     </div>
@@ -22,14 +22,14 @@
                             <div class="col-md-4 product-left p-left">
                                 <div class="product-main simpleCart_shelfItem">
                                     <a href="/product/<?= $product->alias; ?>" class="mask"><img class="img-responsive zoom-img"
-                                                                                                src="/images/<?= $product->img; ?>" alt="" /></a>
+                                                                                                 src="/images/<?= $product->img; ?>" alt="" /></a>
                                     <div class="product-bottom">
                                         <h3><?= $product->title; ?></h3>
                                         <p>Explore Now</p>
                                         <h4>
                                             <a data-id="<?= $product->id; ?>" class="add-to-cart-link"
                                                href="/cart/add?id=<?= $product->id; ?>"><i></i></a> <span
-                                                    class=" item_price"><?= $curr['symbol_left']; ?><?= $product->price * $curr['value']; ?><?= $curr['symbol_right']; ?></span>
+                                                class=" item_price"><?= $curr['symbol_left']; ?><?= $product->price * $curr['value']; ?><?= $curr['symbol_right']; ?></span>
                                             <?php if ($product->old_price): ?>
                                                 <small>
                                                     <del><?= $curr['symbol_left']; ?><?= $product->old_price * $curr['value']; ?><?= $curr['symbol_right']; ?></del>
@@ -45,6 +45,8 @@
                         <?php endforeach; ?>
                         <div class="clearfix"></div>
                     </div>
+                <?php else: ?>
+                    <h3>В данной категории пока нет товаров</h3>
                 <?php endif; ?>
             </div>
             <div class="col-md-3 prdt-right">
