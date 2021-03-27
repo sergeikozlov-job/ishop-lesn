@@ -14,7 +14,7 @@ class Breadcrumbs
         // Получаем все котегории
         $category = App::$app->getProperty('category');
         
-        // Получаме массив категорий до товара
+        // Получаем массив категорий до товара
         $breadcrumbs_array = self::getParts($category, $category_id);
         
         // Формируем ссылки
@@ -34,7 +34,6 @@ class Breadcrumbs
     
     public static function getParts($category, $id)
     {
-        
         if ( ! $id) return false;
         $breadcrumbs = [];
         

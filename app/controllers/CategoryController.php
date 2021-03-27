@@ -4,7 +4,10 @@
 namespace app\controllers;
 
 
+use app\models\Breadcrumbs;
 use app\models\CategoryModel;
+use ishop\App;
+use ishop\libs\Pagination;
 
 class CategoryController extends AppController
 {
@@ -21,14 +24,22 @@ class CategoryController extends AppController
         $id_categories = CategoryModel::getIdsCategory($category->id);
         $id_categories = $id_categories ? $id_categories . $category->id : $category->id;
         
-        $products = \RedBeanPHP\R::find('product', "category_id IN ($id_categories)");
-        
+
+        // Пагинация
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $perpage = App::$app->getProperty('pagination');
+        $total = \RedBeanPHP\R::count('product', "category_id IN ($id_categories)");
+        $pagination = new Pagination($page, $perpage, $total);
+        $start = $pagination->getStart();
+    
+    
+        $products = \RedBeanPHP\R::find('product', "category_id IN ($id_categories) LIMIT $start, $perpage");
         
         // Хлебные крошки
-        $breadcrumbs = '';
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($category->id);
         
         $this->setMeta($category->title, $category->desc, $category->keywords);
-        $this->set(compact('products', 'breadcrumbs'));
+        $this->set(compact('products', 'breadcrumbs', 'pagination'));
     }
     
 }
