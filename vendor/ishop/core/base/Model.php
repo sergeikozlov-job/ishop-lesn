@@ -19,6 +19,7 @@ abstract class Model
         Db::instance();
     }
     
+    // Запись POST в массив
     public function load($data)
     {
         foreach ($this->attributes as $name => $value) {
@@ -28,6 +29,19 @@ abstract class Model
         }
     }
     
+    
+    // Запись в базу
+    public function save($table)
+    {
+        $tbl = \RedBeanPHP\R::dispense($table);
+        foreach ($this->attributes as $name => $value) {
+            $tbl->$name = $value;
+        }
+        return \RedBeanPHP\R::store($tbl);
+    }
+    
+    
+    // Валидация данных
     public function validate($data)
     {
         Validator::lang('ru');
@@ -40,6 +54,8 @@ abstract class Model
         return false;
     }
     
+    
+    // Вывод ошибок
     public function getErrors()
     {
         $errors = '<ul>';
