@@ -719,6 +719,7 @@ figure.effect-bubba:hover p, figure.effect-bubba:hover h2 {
 .product-main {
   padding: 1em 0px 2.7em 0px;
   border: 1px solid #ECEAEA;
+  margin-bottom: 25px;
 }
 
 .product {
