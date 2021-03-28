@@ -219,6 +219,7 @@
 <script defer src="/js/jquery.flexslider.js"></script>
 <script src="/megamenu/js/megamenu.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/validator.min.js"></script>
 <script src="/js/typeahead.bundle.js"></script>
 <script src="/js/app.js"></script>
 
