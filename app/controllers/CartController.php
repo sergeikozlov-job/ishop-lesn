@@ -3,6 +3,8 @@
 namespace app\controllers;
 
 use app\models\CartModel;
+use app\models\OrderModel;
+use app\models\User;
 use RedBeanPHP\R;
 
 class CartController extends AppController
@@ -88,6 +90,46 @@ class CartController extends AppController
                 $_SESSION['cart.currency'][$k] = $v;
             }
         }
+    }
+    
+    public function viewAction()
+    {
+        $this->setMeta('Оформление заказа');
+    }
+    
+    public function checkoutAction()
+    {
+        
+        if ( ! empty($_POST)) {
+            
+            // регистрация пользователя
+            if ( ! User::checkAuth()) {
+                $data = $_POST;
+                $user = new User();
+                $user->load($data);
+                if ($user->validate($data) && $user->checkUnique()) {
+                    $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+                    if ( ! $user_id = $user->save('user')) {
+                        $_SESSION['errors'] = 'Ошибка';
+                        redirect();
+                    }
+                } else {
+                    $_SESSION['errors']    = $user->getErrors();
+                    $_SESSION['form_data'] = $data;
+                    redirect();
+                }
+            }
+            
+            // сохранение заказа
+            $data['user_id'] = isset($user_id) ? $user_id : $_SESSION['user']['id'];
+            $data['note']    = ! empty($_POST['note']) ? $_POST['note'] : '';
+            $user_email      = isset($_SESSION['user']['email']) ? $_SESSION['user']['email'] : $_POST['email'];
+            
+            $order_id = OrderModel::saveOrder($data);
+            OrderModel::productOrder($order_id);
+            OrderModel::mailOrder($order_id, $user_email);
+        }
+        
     }
     
 }
