@@ -48,7 +48,7 @@
                                 </tr>
                                 <tr>
                                     <td>На сумму:</td>
-                                    <td colspan="4" class="text-right cart-sum"><?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.price'] . " {$_SESSION['cart.currency']['symbol_right']}" ?></td>
+                                    <td colspan="4" class="text-right"><?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.price'] . " {$_SESSION['cart.currency']['symbol_right']}" ?></td>
                                 </tr>
                                 </tbody>
                             </table>

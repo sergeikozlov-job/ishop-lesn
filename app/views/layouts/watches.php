@@ -203,7 +203,6 @@
     </div>
 </div>
 
-
 <?php $currency = ishop\App::$app->getProperty('currency'); ?>
 <script>
     let path        = '<?= PATH ?>',

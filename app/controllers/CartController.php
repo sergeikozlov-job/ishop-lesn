@@ -97,9 +97,9 @@ class CartController extends AppController
         $this->setMeta('Оформление заказа');
     }
     
+    // Оформление заказа
     public function checkoutAction()
     {
-        
         if ( ! empty($_POST)) {
             
             // регистрация пользователя
@@ -126,10 +126,9 @@ class CartController extends AppController
             $user_email      = isset($_SESSION['user']['email']) ? $_SESSION['user']['email'] : $_POST['email'];
             
             $order_id = OrderModel::saveOrder($data);
-            OrderModel::productOrder($order_id);
             OrderModel::mailOrder($order_id, $user_email);
         }
-        
+        redirect();
     }
     
 }
